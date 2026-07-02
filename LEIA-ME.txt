@@ -1,76 +1,61 @@
-========================================
-   AUTOHERTZ  -  taxa de tela automatica
-========================================
+============================================================
+   AUTOHERTZ  -  sua bateria durando mais, sem esforco
+============================================================
 
-O que faz:
-  Controla a taxa de atualizacao (Hz) do monitor para
-  economizar bateria. Detecta SOZINHO as taxas que a sua
-  tela suporta (60, 75, 90, 144, 165, 240... qualquer uma)
-  e mostra tudo em tempo real.
+O QUE E:
+  Um app gratuito e levinho que ajusta sozinho a "velocidade"
+  da sua tela (os Hz) para ECONOMIZAR BATERIA quando voce esta
+  na bateria, e voltar ao maximo de fluidez na tomada.
+  Voce configura uma vez e esquece.
 
-****************************************************
-* APARECEU UM AVISO DO WINDOWS AO ABRIR?           *
-* (e normal, o app e seguro - pode ficar tranquilo)*
-****************************************************
-  O Windows mostra uma tela "O Windows protegeu o
-  computador" (SmartScreen) para QUALQUER app novo e
-  pequeno baixado da internet. Nao quer dizer que e
-  perigoso - so que e novo e a Microsoft ainda nao
-  o conhece. Para abrir:
+O QUE E "Hz"?
+  E o quao lisa/fluida a tela parece. Mais Hz (120, 144, 165...)
+  = mais suave, porem gasta MAIS bateria. 60 Hz = suficiente
+  para o dia a dia e ECONOMIZA. A maioria dos notebooks fica no
+  maximo o tempo todo, gastando energia a toa. O AutoHertz
+  arruma isso automaticamente.
+
+O QUE VOCE GANHA:
+  - Bateria durando MAIS (na bateria, a tela cai pra 60 Hz).
+  - O melhor dos dois mundos: fluida na tomada, economica na bateria.
+  - Automatico: configura uma vez e pronto, ele cuida sozinho.
+  - Ou troca na hora, com um clique.
+  - Leve e seguro: nao pesa no PC, NAO pede administrador,
+    NAO usa internet, NAO coleta nada. Codigo aberto.
+  - Gratis e funciona em QUALQUER notebook (le a tela sozinho).
+
+************************************************************
+* APARECEU UM AVISO DO WINDOWS AO ABRIR?                   *
+* (e normal, o app e seguro - pode ficar tranquilo)        *
+************************************************************
+  O Windows mostra a tela "O Windows protegeu o computador"
+  (SmartScreen) para QUALQUER app novo, pequeno e gratuito
+  baixado da internet. Nao quer dizer que e perigoso.
+  Para abrir:
      1) Clique em "Mais informacoes"
      2) Clique em "Executar assim mesmo"
   So aparece na PRIMEIRA vez. Depois abre normal.
-  (O codigo-fonte esta na pasta src - nada e escondido,
-   e o app nao pede senha de administrador.)
 
-Ao abrir (clique 2x em AutoHertz.exe) voce ve:
+COMO USAR:
+  1) Clique 2x em AutoHertz.exe
+  2) Escolha um modo:
+       [ Economia de energia ] 60 Hz so no modo economia do Windows.
+       [ Fora da tomada ]      60 Hz sempre que estiver na bateria.
+       [ Trocar na hora ]      clique numa das taxas (ex.: 60 / 144).
+  3) Pronto. Ele liga junto com o Windows e cuida de tudo sozinho.
 
-  * "Atual: X Hz" -> em quantos Hz a tela esta agora
-    (atualiza sozinho, ao vivo) e ate quantos Hz ela vai.
+  Para DESLIGAR: abra de novo e escolha "Remover automacao".
 
-  * Botoes com as taxas suportadas (ex.: 60 Hz | 144 Hz)
-    -> CLIQUE em qualquer um para mudar na hora (modo manual).
-       Isso desliga o modo automatico.
+LEVAR PARA OUTRO NOTEBOOK:
+  Copie o AutoHertz.exe, clique 2x e escolha. So isso.
+  Nao precisa instalar nada. Funciona em Windows 10 e 11.
 
-  * 3 opcoes de modo AUTOMATICO (escolha e clique "Aplicar"):
-
-     [ Economia de energia ]
-        Cai para 60 Hz somente quando o Windows entra no
-        modo "economia de energia". Fora disso, taxa maxima.
-
-     [ Fora da tomada ]
-        Cai para 60 Hz sempre que estiver na bateria
-        (com ou sem economia). Na tomada, taxa maxima.
-
-     [ Remover automacao ]
-        Desativa e apaga tudo. Volta ao controle manual.
-
-  Depois de "Aplicar", o modo automatico:
-    - inicia junto com o Windows (sem pedir nada)
-    - roda escondido, sem janela nem console
-    - troca a taxa na hora que voce tira/poe o cabo
-
-Para MUDAR depois: abra o app de novo e escolha outra coisa.
-Para DESLIGAR:      abra o app e escolha "Remover automacao".
-
-----------------------------------------
-Levar para outro notebook:
-  Copie AutoHertz.exe para o outro PC, clique 2x e escolha.
-  Nao precisa instalar nada. Funciona em Windows 10 e 11 e
-  se adapta a qualquer tela (le as taxas dela sozinho).
-----------------------------------------
-
-Contato / suporte:
+CONTATO / SUPORTE:
   WhatsApp: (74) 99988-7338
-  (dentro do app, o rodape e clicavel e abre o WhatsApp)
 
-----------------------------------------
-Detalhes tecnicos:
-  - App unico em .NET (WinForms), sem dependencias.
-  - Instala em:   C:\Users\<voce>\AutoHertz\
-  - Inicia via:   HKCU\...\Run  (nao pede admin)
-  - Fonte + build.bat: pasta  src\
-  - Linha de comando (instalacao em lote):
-        AutoHertz.exe --install 1     (modo economia)
-        AutoHertz.exe --install 2     (modo fora da tomada)
-        AutoHertz.exe --uninstall     (remove tudo)
+------------------------------------------------------------
+Para os curiosos:
+  App unico em .NET (WinForms), sem dependencias.
+  Codigo-fonte e build.bat na pasta  src\
+  Instala em  C:\Users\<voce>\AutoHertz\  e inicia via HKCU\Run.
+  Linha de comando: --install 1 | --install 2 | --uninstall
