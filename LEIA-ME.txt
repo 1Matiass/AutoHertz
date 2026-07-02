@@ -8,6 +8,21 @@ O que faz:
   tela suporta (60, 75, 90, 144, 165, 240... qualquer uma)
   e mostra tudo em tempo real.
 
+****************************************************
+* APARECEU UM AVISO DO WINDOWS AO ABRIR?           *
+* (e normal, o app e seguro - pode ficar tranquilo)*
+****************************************************
+  O Windows mostra uma tela "O Windows protegeu o
+  computador" (SmartScreen) para QUALQUER app novo e
+  pequeno baixado da internet. Nao quer dizer que e
+  perigoso - so que e novo e a Microsoft ainda nao
+  o conhece. Para abrir:
+     1) Clique em "Mais informacoes"
+     2) Clique em "Executar assim mesmo"
+  So aparece na PRIMEIRA vez. Depois abre normal.
+  (O codigo-fonte esta na pasta src - nada e escondido,
+   e o app nao pede senha de administrador.)
+
 Ao abrir (clique 2x em AutoHertz.exe) voce ve:
 
   * "Atual: X Hz" -> em quantos Hz a tela esta agora

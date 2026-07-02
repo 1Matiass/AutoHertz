@@ -34,6 +34,21 @@ AutoHertz.exe --install 2   :: modo fora da tomada
 AutoHertz.exe --uninstall   :: remove tudo
 ```
 
+## ⚠️ Apareceu um aviso do Windows ao abrir? (é normal, pode ficar tranquilo)
+
+Ao abrir, o Windows pode mostrar uma tela azul/amarela dizendo **"O Windows protegeu o computador"** (SmartScreen), com **"Fornecedor desconhecido"**.
+
+**Isso é normal e o app é seguro.** Esse aviso aparece para **qualquer** programa novo e pequeno que foi baixado da internet e ainda não tem um certificado pago (que custa caro e não faz sentido para um app gratuito). Ele **não** quer dizer que o app é perigoso — só que é novo e a Microsoft ainda não o "conhece".
+
+Para abrir mesmo assim:
+
+1. Clique em **"Mais informações"**.
+2. Clique em **"Executar assim mesmo"**.
+
+Pronto — **só pede na primeira vez**. Depois abre normalmente, para sempre.
+
+> 💡 Não confia? Sem problema: o **código-fonte completo está aqui neste repositório** (pasta [`src`](src)) — nada é escondido. O app **não pede senha de administrador** e você pode desfazer tudo a qualquer momento na opção **Remover automação**.
+
 ## 🛠️ Como funciona
 
 - Escrito em **C# (WinForms)** e compilado com o `csc.exe` que **já vem no Windows** (.NET Framework 4) — sem SDK.
