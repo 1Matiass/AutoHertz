@@ -1,0 +1,9 @@
+# Build artifacts
+*.pdb
+*.obj
+obj/
+bin/
+
+# OS junk
+Thumbs.db
+desktop.ini
