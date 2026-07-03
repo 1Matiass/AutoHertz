@@ -9,7 +9,7 @@ O AutoHertz ajusta sozinho a "velocidade" da sua tela (os famosos **Hz**) para e
 </p>
 
 <p align="center">
-  <a href="https://github.com/1Matiass/AutoHertz/raw/main/AutoHertz.exe"><b>⬇️ BAIXAR O AUTOHERTZ</b></a>
+  <a href="https://github.com/1Matiass/AutoHertz/releases/latest/download/AutoHertz.exe"><b>⬇️ BAIXAR O AUTOHERTZ</b></a>
 </p>
 
 É **um arquivo só** (~53 KB). Baixou? É só **clicar duas vezes**. Não precisa instalar nada. 😉
@@ -36,7 +36,7 @@ O problema: a maioria dos notebooks fica no Hz máximo **o tempo todo** — incl
 
 ## 🚀 Como usar (bem simples)
 
-1. **[Baixe o AutoHertz.exe](https://github.com/1Matiass/AutoHertz/raw/main/AutoHertz.exe)**.
+1. **[Baixe o AutoHertz.exe](https://github.com/1Matiass/AutoHertz/releases/latest/download/AutoHertz.exe)**.
 2. Clique **duas vezes** para abrir.
 3. Escolha o que preferir:
    - 🔋 **Economia de energia** — cai pra 60 Hz só quando o Windows entra no modo de economia.
